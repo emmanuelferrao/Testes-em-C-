@@ -25,3 +25,6 @@ Alguns exercícios utilizando C#.
 11) Elaborar um programa de computador que calcule e apresente o valor do volume de uma esfera. Utilize a fórmula VOLUME <- (4 / 3) * 3.14159 * (RAIO3).
 
 12) Construir um programa que leia um valor numérico inteiro e apresente como resultado os seus valores: sucessor e antecessor.
+
+
+OBS: Não se esqueça de retirar os comentários dos códigos! Cada exercício foi comentado isoladamente.
