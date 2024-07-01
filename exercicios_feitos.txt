@@ -3,17 +3,6 @@
 /* Console.WriteLine ("Informe o salário: ");
 
 double salario = double.Parse(Console.ReadLine());
-Expandir
-message.txt
-7 KB
-﻿
-Marianavic
-marianavic1820
-//01)
-
-/* Console.WriteLine ("Informe o salário: ");
-
-double salario = double.Parse(Console.ReadLine());
 
 var porcentagem = salario * 0.25;
 
@@ -184,5 +173,3 @@ int antecessor = get - 1;
 
 Console.WriteLine("O sucessor é: " + sucessor);
 Console.WriteLine("O antecessor é: " + antecessor); */
-
-//13)
