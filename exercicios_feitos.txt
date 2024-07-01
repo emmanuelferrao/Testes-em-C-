@@ -1,0 +1,188 @@
+//01)
+
+/* Console.WriteLine ("Informe o salário: ");
+
+double salario = double.Parse(Console.ReadLine());
+Expandir
+message.txt
+7 KB
+﻿
+Marianavic
+marianavic1820
+//01)
+
+/* Console.WriteLine ("Informe o salário: ");
+
+double salario = double.Parse(Console.ReadLine());
+
+var porcentagem = salario * 0.25;
+
+salario = salario + porcentagem;
+
+Console.WriteLine("Novo Salário: "); 
+Console.WriteLine(salario); */
+
+//02)
+
+/* Console.WriteLine("Informe o Salário: ");
+
+double salario = double.Parse(Console.ReadLine());
+Console.WriteLine("Informe o valor do cálculo: ");
+double ValorCalc = double.Parse(Console.ReadLine());
+
+var porcentagem = salario * ValorCalc;
+
+salario = salario + porcentagem;
+
+Console.WriteLine("Novo Salário: ");
+Console.WriteLine(salario); */
+
+//03)
+
+/* Console.WriteLine("Informe o ano de seu nascimento: ");
+int AnoNascimento = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Informe o ano em que você está: ");
+int AnoAtual = int.Parse(Console.ReadLine());
+
+var CalcAnos = AnoAtual - AnoNascimento;
+var CalcMeses = CalcAnos * 12;
+var CalcDias = CalcAnos * 365;
+var CalcSemanas = CalcDias / 7;
+
+Console.WriteLine("Você tem: " + CalcAnos + " Anos, " + CalcMeses + " Meses, " + CalcDias + " Dias " + " e " + CalcSemanas + " Semanas de vida"); */
+
+//04)
+
+/* Console.WriteLine("Informe o Kg do saco ração: ");
+double pesoSacoKg = double.Parse(Console.ReadLine());
+
+Console.WriteLine("Informe a quantidade de ração fornecida para cada gato: ");
+double quantidadeDiariaPorGato = double.Parse(Console.ReadLine());
+
+double pesoSacoGramas = pesoSacoKg * 1000;
+
+double quantidadeDiariaTotal = quantidadeDiariaPorGato * 2;
+
+double quantidadeTotalCincoDias = quantidadeDiariaTotal * 5;
+
+double racaoRestante = pesoSacoGramas - quantidadeTotalCincoDias;
+
+Console.WriteLine("Após 5 dias, restará: " + racaoRestante + "gramas de ração no saco."); */
+
+//05)
+
+/* Console.WriteLine("Informe sua variável: ");
+int VarA = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Informe sua segunda variável: ");
+int VarB = int.Parse(Console.ReadLine());
+
+int troca = VarA;
+VarA = VarB;
+VarB = troca;
+
+Console.WriteLine("Valores trocados: ");
+Console.WriteLine("VarA: " + VarA);
+Console.WriteLine("VarB: " + VarB); */
+
+//06)     
+
+/* Console.WriteLine("Informe o comprimento da caixa (em metros): ");
+double comprimento = double.Parse(Console.ReadLine());
+
+Console.WriteLine("Informe a largura da caixa (em metros): ");
+double largura = double.Parse(Console.ReadLine());
+
+Console.WriteLine("Informe a altura da caixa (em metros): ");
+double altura = double.Parse(Console.ReadLine());
+
+double volume = comprimento * largura * altura;
+
+Console.WriteLine("O volume da caixa retangular é: " + volume); */
+
+//07)
+
+/* Console.WriteLine("Informe o primeiro valor: ");
+int ValorA = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Informe o segundo valor: ");
+int ValorB = int.Parse(Console.ReadLine());
+
+int diferenca = ValorA - ValorB;
+
+int resultado = diferenca * diferenca;
+
+Console.WriteLine("O quadrado da diferença entre as variáveis é: " + resultado); */
+
+//08) 
+
+//A conversão é realizada de Real brasileiro para Dólar
+
+/* Console.WriteLine("Informe o valor para a conversão: ");
+double real = double.Parse(Console.ReadLine());
+
+double cambio = 5.50;
+
+double ValorDoleta = real * cambio;
+
+Console.WriteLine("O valor em dólares é: " + ValorDoleta); */
+
+//09) 
+
+/* Console.WriteLine("Informe o primeiro valor: ");
+int A = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Informe o segundo valor: ");
+int B = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Informe o terceiro valor: ");
+int C = int.Parse(Console.ReadLine());
+
+int soma = A + B + C;
+
+int somaQuadrado = soma * soma;
+
+Console.WriteLine("O quadrado da soma dos valores é: " + somaQuadrado); */
+
+//10)
+
+/* Console.WriteLine("Informe o primeiro número: ");
+int A = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Informe o segundo número: ");
+int B = int.Parse(Console.ReadLine());
+
+int Calcsoma = A + B;
+int Calcsubtracao = A - B;
+int Calcmultiplicacao = A * B;
+int Calcdivisao = A / B;
+
+Console.WriteLine("O resultado da soma: " + Calcsoma);
+Console.WriteLine("O resultado da subtração: " + Calcsubtracao);
+Console.WriteLine("O resultado da Multiplicação: " + Calcmultiplicacao);
+Console.WriteLine("O resultado da Divisão: " + Calcdivisao); */
+
+//11)
+
+
+/* Console.WriteLine("Informe o raio da esfera: ");
+
+double raio = double.Parse(Console.ReadLine());
+double volume = (4.0 / 3.0) * Math.PI * Math.Pow(raio, 3);
+
+Console.WriteLine("O volume da esfera com raio {raio} é: " + volume); */
+
+//12)
+
+/* Console.WriteLine("Informe o valor: ");
+
+int get = int.Parse(Console.ReadLine());
+
+int sucessor = get + 1;
+int antecessor = get - 1;
+
+Console.WriteLine("O sucessor é: " + sucessor);
+Console.WriteLine("O antecessor é: " + antecessor); */
+
+//13)
